@@ -1,0 +1,39 @@
+// USER SETTINGS JSON
+{
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Dark 2026",
+  "explorer.confirmDelete": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.createEnvironment.trigger": "off",
+  "chat.viewSessions.orientation": "stacked",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  // Внешний вид / шрифты
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+  "editor.fontLigatures": true, // красивые лигатуры: => != <= превращаются в стрелочки и значки
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  // Автосохранение и форматирование
+  "files.autoSave": "afterDelay", // не надо жать Ctrl+S каждый раз
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true, // код сам форматируется при сохранении
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // нужен установленный Prettier
+  // Удобство редактирования
+  "editor.wordWrap": "on", // переносим строки, не улетает в бок)))
+  "editor.renderWhitespace": "boundary", // показываем пробелы точками\
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true, // при переименовании тега <div> автоматом переименуется и закрывающий </div>
+  // Терминал
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  // Файлы и мусор
+  "files.trimTrailingWhitespace": true // убирает лишние пробелы в конце строк при сохранении
+}

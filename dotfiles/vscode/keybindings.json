@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+// Keyboard shortcuts JSON
+[
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.selectHighlights",
+    "when": "editorTextFocus"
+  }
+]
