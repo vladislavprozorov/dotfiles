@@ -5,6 +5,5 @@ alias gs='git status'
 alias gp='git push'
 alias gpr='git pull --rebase'
 alias gb='git branch'
-
-
-
+alias gd='git diff'
+alias gl='git log --oneline --graph --decorate'
