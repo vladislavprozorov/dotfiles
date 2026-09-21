@@ -24,7 +24,22 @@
   "files.autoSaveDelay": 1000,
   "editor.formatOnSave": true, // код сам форматируется при сохранении
   "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // нужен установленный Prettier
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[javascript][typescript][javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+   "[sql]": {
+       "editor.defaultFormatter": "lea21st.vscode-sql-formatter",
+       "editor.formatOnSave": true
+   },
+  "sql-formatter.uppercase": false,
+  "sql-formatter.dialect": "postgresql",
   // Удобство редактирования
   "editor.wordWrap": "on", // переносим строки, не улетает в бок)))
   "editor.renderWhitespace": "boundary", // показываем пробелы точками\
@@ -35,5 +50,6 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.linux": "bash",
   // Файлы и мусор
-  "files.trimTrailingWhitespace": true // убирает лишние пробелы в конце строк при сохранении
+  "files.trimTrailingWhitespace": true,
+  "security.workspace.trust.untrustedFiles": "open", // убирает лишние пробелы в конце строк при сохранении
 }
