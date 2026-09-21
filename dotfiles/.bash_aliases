@@ -10,3 +10,7 @@ alias gb='git branch'
 alias gd='git diff'
 alias gl='git log --oneline --graph --decorate'
 alias reload='source ~/.bashrc'
+
+# Работа с файлами, папками, директориями и т.д
+alias ..='cd ../'
+alias ...='cd ../../'
